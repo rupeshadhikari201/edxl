@@ -39,7 +39,7 @@ function NavBar() {
 							</li>
 
 							<li>
-								<Link to="/randomThree">randomOne</Link>
+								<Link to="/randomOne">randomOne</Link>
 							</li>
 							<li>
 								<Link to="/randomTwo">randomTwo</Link>
@@ -47,7 +47,8 @@ function NavBar() {
 						</ul>
 					</div>
 					<div className="button-hum">
-						<button className="button">Sing Up</button>
+						<Link to="/hello"> <button className="button">Sing Up</button></Link>
+
 
 						<div
 							className="humberger"
@@ -56,8 +57,8 @@ function NavBar() {
 							<GiHamburgerMenu size={30} />
 						</div>
 					</div>
-				</nav>
-			</div>
+				</nav >
+			</div >
 		</>
 	);
 }
