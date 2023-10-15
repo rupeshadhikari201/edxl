@@ -47,7 +47,7 @@ function NavBar() {
 						</ul>
 					</div>
 					<div className="button-hum">
-						<Link to="/hello"> <button className="button">Sing Up</button></Link>
+						<Link to="/sp"> <button className="button">Sing Up</button></Link>
 
 
 						<div
