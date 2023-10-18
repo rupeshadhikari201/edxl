@@ -4,6 +4,8 @@ import Service from "./pages/Service";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Signup from "./pages/Signup";
+import Login from "./pages/Login";
+import SignUpVerification from "./pages/SignUpVerification";
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -14,7 +16,8 @@ const App = () => {
 				></Route>
 				<Route
 					path="/service"
-					element={<Service />} />
+					element={<Service />}
+				/>
 
 				<Route
 					path="/about"
@@ -29,6 +32,14 @@ const App = () => {
 				<Route
 					path="/sp"
 					element={<Signup />}
+				></Route>
+				<Route
+					path="/login"
+					element={<Login />}
+				></Route>
+				<Route
+					path="/confirm"
+					element={<SignUpVerification />}
 				></Route>
 			</Routes>
 		</BrowserRouter>

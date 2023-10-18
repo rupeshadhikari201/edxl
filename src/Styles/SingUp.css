@@ -1,0 +1,55 @@
+.left-container {
+	background: linear-gradient(
+		to bottom,
+		rgb(80, 95, 229, 0.75),
+		rgb(157, 30, 202, 0.37)
+	);
+}
+
+.left-card {
+	background-color: rgba(255, 255, 255, 0.31);
+	/* padding: 1rem;
+	margin: 1rem; */
+}
+
+.right-container {
+	/* padding: 3rem; */
+	margin: 1rem;
+	background-color: #ffffff;
+}
+.right-container h2 {
+	font-weight: bold;
+}
+.form-label {
+	font-weight: bold;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #d9d9d9;
+}
+.left-card span {
+	font-weight: bold;
+	font-size: 3rem;
+	color: radial-gradient(rgba(0, 10, 255, 0.8), rgba(144, 40, 161, 0.79));
+	color: "red";
+	background-image: radial-gradient(
+		rgba(0, 10, 255, 0.8),
+		rgba(144, 40, 161, 0.79)
+	);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+button {
+	width: 100%;
+	color: red;
+	background-color: red;
+	background: linear-gradient(
+		to bottom,
+		rgba(24, 28, 129, 0.5),
+		rgba(144, 38, 140, 1)
+	);
+	outline: none;
+	border: 3px solid black;
+}
