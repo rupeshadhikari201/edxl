@@ -12,8 +12,8 @@ const firebaseConfig = {
     projectId: "edxl-ec932",
     storageBucket: "edxl-ec932.appspot.com",
     messagingSenderId: "545489077156",
-    appId: "1:545489077156:web:a32a9429530b1cff21f731",
-    measurementId: "G-GVTSPK1MSP"
+    appId: "1:545489077156:web:2c6e103fb5aa9ba921f731",
+    measurementId: "G-V8Z91RPWWR"
 };
 
 // Initialize Firebase
