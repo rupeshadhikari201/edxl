@@ -5,7 +5,14 @@ import ProfileTop from "../Components/ProfileTop";
 import "../Styles/DashBoard.css";
 import "../Styles/Events.css";
 
+// Import Icons
+import { FaSearch } from "react-icons/fa"; // Importing the search icon
+import { AiOutlineMessage } from "react-icons/ai"; // Importing the message icon
+import { IoIosNotificationsOutline } from "react-icons/io"; // Importing the notifications icon
+import { RiArrowDropDownLine } from "react-icons/ri"; // Importing the dropdown icon
+
 // Import the images
+import Avatar from "../assets/Avatar.png";
 import dashboardIcon1 from "../assets/DashboardIcons/1.png";
 import dashboardIcon2 from "../assets/DashboardIcons/2.png";
 import dashboardIcon3 from "../assets/DashboardIcons/3.png";
@@ -19,7 +26,7 @@ const Events = () => {
                     <SideBar />
                     <Col xs={9}>
                         <ProfileTop />
-                        <Row className="dashboard-header">
+                        {/* <Row className="dashboard-header">
                             <Col sm={6}>
                                 <div className="search-bar">
                                     <input type="text" placeholder="Search something" />
@@ -50,7 +57,7 @@ const Events = () => {
                                     <RiArrowDropDownLine color="grey" size={50} className="mx-2" />
                                 </Link>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <Row className="dashboard-content" style={{ height: `calc(100% - 70px)`, backgroundColor: "#d3d3d3" }}>
                             <div className="dashboard-container">
                                 <Link className="btn-create">
