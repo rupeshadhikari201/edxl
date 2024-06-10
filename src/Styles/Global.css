@@ -1,0 +1,18 @@
+/* Global */
+.input:focus {
+	outline: 2px solid #d7d7d7d7;
+	font-weight: bold;
+}
+
+.icons i {
+	padding-left: 10px !important;
+}
+.event1,
+.event2,
+.event3 {
+	background: #d3d3d3;
+}
+/* Add this CSS in your stylesheet */
+/* ::placeholder {
+	opacity: var(--placeholder-opacity);
+} */

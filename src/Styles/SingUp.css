@@ -1,0 +1,74 @@
+.left-container {
+	background: linear-gradient(
+		to bottom,
+		rgb(80, 95, 229, 0.75),
+		rgb(157, 30, 202, 0.37)
+	);
+}
+
+.left-card {
+	background-color: rgba(255, 255, 255, 0.31);
+}
+
+.right-container {
+	/* padding: 3rem; */
+	margin: 1rem;
+	background-color: #ffffff;
+}
+.right-container h2 {
+	font-weight: bold;
+}
+.form-label {
+	font-weight: bold;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #d9d9d9;
+}
+.left-card span {
+	font-weight: bold;
+	font-size: 3rem;
+	color: radial-gradient(rgba(0, 10, 255, 0.8), rgba(144, 40, 161, 0.79));
+	color: "red";
+	background-image: radial-gradient(
+		rgba(0, 10, 255, 0.8),
+		rgba(144, 40, 161, 0.79)
+	);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.custom-button {
+	width: 100% !important;
+	background: linear-gradient(
+		to bottom,
+		rgba(24, 28, 129, 0.5),
+		rgba(144, 38, 140, 1)
+	) !important;
+	outline: none !important;
+	border: none;
+}
+.link-w-un {
+	color: white;
+	text-decoration: none;
+}
+.hr-or::before {
+	content: "";
+	border: 0.4px solid rgb(91, 91, 91);
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.hr-or::after {
+	content: "";
+	border: 0.4px solid rgb(91, 91, 91);
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.hr-or {
+	text-align: center;
+}

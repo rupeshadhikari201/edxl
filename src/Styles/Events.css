@@ -1,0 +1,67 @@
+.event-created-container {
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: 3px solid #d3d3d3;
+}
+.center {
+	padding-left: 1rem;
+	/* border: 2px solid red; */
+	flex-grow: 1;
+}
+.center p {
+	font-weight: bold;
+}
+.date {
+	text-align: center;
+	font-size: 1rem;
+	padding: 0 10px;
+	border-radius: 10px;
+	background: #72a950;
+	display: inline;
+	font-weight: bold;
+	color: white;
+	height: 10vh;
+}
+.attended-date {
+	background: #1ec19a;
+	text-align: center;
+	font-size: 1rem;
+	padding: 0 10px;
+	border-radius: 10px;
+
+	display: inline;
+	font-weight: bold;
+	color: white;
+	height: 10vh;
+}
+.evt-button {
+	background: #72a950;
+	color: #333333;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+.evt-attended-button {
+	background: #1ec19a;
+	color: #333333;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+.evt-button:hover {
+	background: #72a950;
+	color: #333333;
+}
+ .evt-button:active,
+.evt-button:focus {
+	background: #648c5b !important;
+}
+.evt-attended-button:active,
+.evt-attended-button:focus {
+	background: #1ec19a !important;
+	color: #333333;
+} */

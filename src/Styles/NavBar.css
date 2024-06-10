@@ -1,0 +1,133 @@
+* {
+	font-family: raleway;
+}
+.nav-container {
+	background: linear-gradient(to bottom, #505fe5, #9d1eca);
+	height: 70px;
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transition: top 0.4s ease-in-out;
+}
+
+nav {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	font-size: 2rem;
+}
+.logo-wrapper {
+	/* flex-grow: 1; */
+	margin-left: 60px;
+}
+.nav-link-wrapper {
+	flex-grow: 1;
+	height: 100%;
+	/* display: flex; */
+}
+.nav-link-wrapper a {
+	color: white;
+	text-decoration: none;
+	/* font-weight: bold; */
+	font-size: 1.2rem;
+}
+.nav-link-wrapper ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	/* justify-content: space-around; */
+	/* border: 3px solid yellow; */
+	align-items: center;
+	height: 100%;
+}
+.button {
+	height: 40px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 5px 10px;
+	border-radius: 15px;
+	margin-right: 60px;
+	width: 120px;
+	background-color: #000080;
+	color: white;
+	font-weight: bold;
+}
+.humberger {
+	display: none;
+}
+.button-hum {
+	flex-grow: 0;
+}
+.cancel-nav {
+	display: none;
+}
+@media (min-width: 1000px) {
+	.p-100 {
+		padding: 50px 50px !important;
+	}
+}
+@media (max-width: 1000px) {
+	.nav-link-wrapper {
+		display: block;
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		color: black;
+		background: linear-gradient(to right, #505fe5, #9d1eca);
+		/* transform: translateY(-100%); */
+		transition: all 0.2s ease-in-out;
+	}
+	.cancel-nav {
+		display: block;
+		position: absolute;
+		right: 3px;
+	}
+	.nav-link-wrapper ul {
+		flex-direction: column;
+		/* justify-content:; */
+		justify-content: center;
+	}
+
+	.humberger {
+		display: block;
+		color: black;
+	}
+	.button-hum {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		/* border: 1px solid black; */
+		flex-grow: 1;
+		margin-right: 60px;
+	}
+
+	.button {
+		margin-right: 20px;
+	}
+}
+@media (max-width: 600px) {
+	.nav-container {
+		position: static;
+	}
+	.button {
+		display: none;
+	}
+	.button-hum {
+		margin-right: 30px;
+	}
+	.logo-wrapper {
+		margin-left: 30px;
+	}
+}
+
+.toggle-nav {
+	visibility: visible;
+	transform: translateY(100%) !important;
+}

@@ -1,0 +1,41 @@
+.ulex-container {
+	background: linear-gradient(to top, #505fe5, #9d1eca);
+	height: 70px;
+	color: white;
+}
+
+.event-background {
+	background: linear-gradient(to top, #505fe5, #9d1eca);
+}
+
+.faq-background {
+	background: linear-gradient(
+		to top,
+		rgb(80, 95, 229, 0.4),
+		rgb(157, 30, 202, 0.4)
+	);
+}
+
+.list a {
+	color: white;
+}
+
+.flex-basis-auto {
+	flex-basis: auto;
+}
+
+.search-bar {
+	border: 1px solid rgb(223, 223, 223);
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.search-bar input {
+	outline: none;
+	border: none;
+	flex: 1 0;
+	padding: 5px 10px;
+}

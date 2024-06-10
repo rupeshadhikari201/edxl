@@ -1,0 +1,49 @@
+.main-container {
+	background-color: #d3d3d3;
+	height: 100vh;
+}
+.container-confirm {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(80, 86, 229, 0.75),
+		rgba(157, 30, 202, 0.37)
+	);
+	max-width: 800px;
+}
+.confirm {
+	background-color: rgba(255, 255, 255, 0.31);
+}
+.confirm .cnf {
+	background-image: radial-gradient(
+		rgba(144, 40, 161, 0.79),
+		rgba(0, 10, 255, 0.9)
+	);
+	font-weight: bold;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+.confirm .uracct {
+	font-weight: bold;
+	background-image: radial-gradient(rgba(220, 36, 36, 1), rgba(74, 86, 157, 1));
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+.conf-p span {
+	font-weight: bold;
+}
+
+.btn-conf {
+	background-image: linear-gradient(
+		to right,
+		rgba(39, 116, 174, 1),
+		rgba(0, 46, 93, 1),
+		rgba(0, 46, 93, 1)
+	);
+	border: none;
+	outline: none;
+}
+.btn-conf-primary:hover {
+	font-weight: bold;
+}

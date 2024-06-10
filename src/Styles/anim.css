@@ -1,0 +1,50 @@
+.anim {
+	opacity: 0;
+}
+.anim.active {
+}
+
+.anim.active.fade-left {
+	animation: fade-left 1s;
+	animation-fill-mode: forwards;
+}
+.delay {
+	animation-delay: 0.7s;
+}
+.anim.active.fade-right {
+	animation: fade-right 1s;
+
+	animation-fill-mode: forwards;
+}
+.anim.active.fade-in {
+	animation: fade-in 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes fade-left {
+	0% {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fade-right {
+	0% {
+		transform: translateX(200px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
