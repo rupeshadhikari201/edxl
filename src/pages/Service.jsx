@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
-import NavBar from '../Components/Navbar'
+import NavBar from '../Components/NavBar'
 
 const Service = () => {
   return (
